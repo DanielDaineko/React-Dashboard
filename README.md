@@ -107,6 +107,7 @@ react-dashboard/
 ├─ vite.config.js
 └─ README.md
 ```
+---
 
 # How to Run Locally
 
