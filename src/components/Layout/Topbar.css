@@ -1,0 +1,48 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.topbar__title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.topbar__subtitle {
+  margin: 6px 0 0;
+  color: #6b7280;
+}
+
+.topbar__button {
+  border: none;
+  background: #111827;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.topbar__button:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .topbar__button {
+    width: 100%;
+  }
+}
